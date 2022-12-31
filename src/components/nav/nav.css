@@ -1,0 +1,145 @@
+.nav{
+    position: fixed;
+    height: 100%;
+    width: 17.5%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    z-index: 100;
+}
+
+.logo{
+    position: relative;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    letter-spacing: 10px;
+    margin-top: -5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-left: 12%;
+}
+.nav-container-links{
+    position: relative;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+
+}
+.nav-container-links .line{
+    position: relative;
+    width: 1px;
+    height: 150px;
+    margin-left: -10%;
+    background: rgb(131, 131, 131);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ul{
+    position: relative;
+    display: flex;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    flex-direction: column;
+    margin-left: -44%;
+    justify-content: left;
+}
+li{
+    position: relative;
+    list-style: none;
+    justify-content: left;
+}
+
+a:hover{
+    position: relative;
+    color: #101010;
+    transition: .4s ease-in-out;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.226);
+    font-family: 'Poppins',sans-serif;
+    justify-content: left;
+    text-align: left;
+    transition: .5s ease-in-out;
+}
+.name{
+    position: relative;
+    font-size: 1.5rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    text-align: left;
+    justify-content: center;
+}
+@media screen and (max-width: 600px) {
+    .nav{
+        position: fixed;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 10vh;
+        padding: 0;
+        bottom: 2%;
+        border-radius: 50px;
+        right: 0%;
+        background: #1a1a1a38;
+        backdrop-filter: blur(4px);
+    }
+    li:hover{
+        position: relative;
+        color: #2f2c79;
+        transition: .4s ease-in-out;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        padding-left: 44%;
+    }
+    li{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+    a{
+        padding: 5px 10px;
+        font-size: 15px;
+        color: white;
+    }
+    .logo{
+        display: none;
+    }
+    .name{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+}
+@media screen and (max-width: 393px) {
+    ul{
+        display: flex;
+        flex-direction: row;
+        padding-left: 44%;
+    }
+    li{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+    a{
+        padding: 5px 10px;
+        font-size: 10px;
+        color: white;
+    }
+}

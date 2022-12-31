@@ -1,0 +1,158 @@
+.about{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding-left: 20%;
+    gap: 5%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 2%;
+    overflow: hidden;
+}
+.text-about{
+    position: relative;
+    justify-content: center;
+}
+.img-about{
+    position: relative;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3ccircle r='93.335' cx='10.17' cy='72.3' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='93.335' cx='409.09' cy='336.58' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='93.335' cx='825.03' cy='704.27' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='111.905' cx='1196.62' cy='428.72' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='182.1' cx='1358.76' cy='47.89' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='161.005' cx='454.14' cy='424.24' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='101.345' cx='945.44' cy='171.44' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='173.46' cx='515.12' cy='393.28' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='60.44' cx='436.75' cy='390.03' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='53.265' cx='303.62' cy='329.95' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='93.905' cx='274.93' cy='300.62' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='49.875' cx='499.57' cy='285.2' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='99.455' cx='831.96' cy='53.39' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='55.48' cx='556.1' cy='520.37' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='160.905' cx='1094.64' cy='183.74' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='149.01' cx='890.19' cy='110.95' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='126.14' cx='891.9' cy='397.27' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='176.315' cx='1209' cy='535.52' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='166.185' cx='525.31' cy='500.06' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='78.91' cx='474.55' cy='255.02' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='163.34' cx='900.33' cy='381.54' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='149.46' cx='220.46' cy='328.47' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='178.855' cx='781.08' cy='189.04' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='156.595' cx='1323.89' cy='467.4' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='165.345' cx='371.71' cy='49.7' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='122.14' cx='514.51' cy='265.58' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='62.735' cx='378.05' cy='153.11' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='63.525' cx='614.9' cy='33.73' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='86.03' cx='394.37' cy='185.95' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='169.715' cx='848.28' cy='65.19' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='122.905' cx='422.56' cy='93.25' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='183.095' cx='440.74' cy='4.74' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='47.565' cx='1328.67' cy='361.61' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='79.355' cx='205.94' cy='330.81' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='153.48' cx='1105.34' cy='31.76' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='66.72' cx='1262.81' cy='144.39' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='169.305' cx='320.27' cy='44.03' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='142.01' cx='677.75' cy='235.44' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='54.63' cx='855.92' cy='336.2' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='141.595' cx='820.24' cy='446.49' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1000'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+}
+.me2{
+    position: relative;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    /* background: rgb(0, 0, 0); */
+    padding-left: 25.7%;
+    margin-bottom: -1%;
+}
+.text1{
+    color: #101010;
+}
+.text-about h1, h2{
+    position: relative;
+    font-family: 'poppins',sans-serif;
+    font-size: 2rem;
+    padding-top: 3%;
+    color: rgba(0, 0, 0, 0.226);
+}
+.text-about p{
+    position: relative;
+    font-family: 'poppins',sans-serif;
+    font-size: 1rem;
+    padding-top: 1%;
+    color: #101010;
+}
+.numbers{
+    position: relative;
+    display: flex;
+    gap: 25%;
+    text-align: center;
+    justify-content: left;
+}
+.text{
+    position: relative;
+    color: black;
+}
+.text-numbers{
+    position: relative;
+    color: black;
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .about{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding-right: 0%;
+        padding-left: 0%;
+        justify-content: center;
+        padding-top: 50%;
+        padding-bottom: 63%;
+        overflow: hidden;
+    }
+    .text-about{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .text-about h1{
+        font-size: 5vh;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+    .img-about{
+        display: none;
+        /* justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0; */
+    }
+    .me2{
+        display: none   ;
+        /* position: relative;
+        width: 100%;
+        background-size: contain;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 5600; */
+    }
+    .text1{
+        font-size: 5vh;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        color: #101010;
+    }
+    h2, .text{
+        font-size: 4vh;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+    .text-about p{
+        padding-top: 15%;
+        position: relative;
+        text-align: justify;
+    }
+    .text-numbers{
+        justify-content: center;
+        text-align: center;
+        font-size: 6px;
+    }
+}
+@media screen and (max-width: 320px) {
+     .about{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        padding-top: 50%;
+        padding-bottom: 63%;
+        overflow: hidden;
+    }
+    .text-numbers{
+        position: relative;
+        font-size: 5px;
+    }
+}
